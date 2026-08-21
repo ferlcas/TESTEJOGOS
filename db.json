@@ -1,0 +1,117 @@
+{
+  "plataformas": [
+    {
+      "id": "1",
+      "nome": "PC",
+      "fabricante": "Vários",
+      "geracao": "N/A",
+      "lancamento": 1970
+    },
+    {
+      "id": "2",
+      "nome": "PlayStation 5",
+      "fabricante": "Sony",
+      "geracao": 9,
+      "lancamento": 2020
+    },
+    {
+      "id": "3",
+      "nome": "Xbox Series X",
+      "fabricante": "Microsoft",
+      "geracao": 9,
+      "lancamento": 2020
+    },
+    {
+      "id": "4",
+      "nome": "Nintendo Switch",
+      "fabricante": "Nintendo",
+      "geracao": 8,
+      "lancamento": 2017
+    },
+    {
+      "id": "5",
+      "nome": "PlayStation 4",
+      "fabricante": "Sony",
+      "geracao": 8,
+      "lancamento": 2013
+    }
+  ],
+  "estudios": [
+    {
+      "id": "1",
+      "nome": "Psyonix",
+      "pais": "EUA",
+      "anoFundacao": 2000,
+      "ativo": true
+    },
+    {
+      "id": "2",
+      "nome": "Bethesda Game Studios",
+      "pais": "EUA",
+      "anoFundacao": 2001,
+      "ativo": true
+    },
+    {
+      "id": "3",
+      "nome": "CD Projekt Red",
+      "pais": "Polônia",
+      "anoFundacao": 2002,
+      "ativo": true
+    },
+    {
+      "id": "4",
+      "nome": "Santa Monica Studio",
+      "pais": "EUA",
+      "anoFundacao": 1999,
+      "ativo": true
+    },
+    {
+      "id": "5",
+      "nome": "FromSoftware",
+      "pais": "Japão",
+      "anoFundacao": 1986,
+      "ativo": true
+    }
+  ],
+  "jogos": [
+    {
+      "id": "1",
+      "titulo": "Rocket League",
+      "genero": "Esporte/Ação",
+      "preco": 0,
+      "estudioId": 1,
+      "plataformaId": 1
+    },
+    {
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "titulo": "The Witcher 3: Wild Hunt",
+      "genero": "RPG",
+      "preco": 79.99,
+      "estudioId": 3,
+      "plataformaId": 5
+    },
+    {
+      "id": "4",
+      "titulo": "God of War Ragnarök",
+      "genero": "Ação/Aventura",
+      "preco": 349.9,
+      "estudioId": 4,
+      "plataformaId": 2
+    },
+    {
+      "id": "O1pdvWvewTY"
+    },
+    {
+      "titulo": "Hollow Knight",
+      "genero": "Metroidvania",
+      "preco": 46.99,
+      "estudioId": 5,
+      "plataformaId": 1,
+      "id": "V9yle6IHvNs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
